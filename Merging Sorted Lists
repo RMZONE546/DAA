@@ -4,7 +4,7 @@ class ListNode {
     ListNode(int x) { val = x; }
 }
 
-public class MergeKSortedLists {
+public class MergeKSortedLists { 
 
     public static ListNode mergeKLists(ListNode[] lists) {
         PriorityQueue<ListNode> pq = new PriorityQueue<>((a, b) -> a.val - b.val);
